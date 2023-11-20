@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1b0e0e;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .navbar-nav .nav-link {
+      font-size: 18px;
+    }
+
+    .hero-section {
+      background-image: url("path/to/hero-image.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .hero-section h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero-section p {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    .featured-recipes-section {
+      padding: 40px 0;
+      background-color: #fff;
+    }
+
+    .categories-section {
+      padding: 40px 0;
+      background-color: #f8f8f8;
+    }
+
+    .categories-section .category-card {
+      border: none;
+      background-color: transparent;
+    }
+
+    .categories-section .category-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .testimonials-section {
+      padding: 40px 0;
+      background-color: #fff;
+    }
+
+    .testimonials-section .testimonial-card {
+      border: none;
+      background-color: transparent;
+    }
+
+    .testimonials-section .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .about-section {
+      padding: 40px 0;
+      background-color: #f8f8f8;
+    }
+
+    .footer-section {
+      background-color: #333;
+      padding: 20px 0;
+      color: #fff;
+    }
+
+    .footer-section p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Recipe Site</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews and Ratings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">User Profile</a>
+          </li>
+        </ul>
+        <a class="btn btn-primary ml-3" href="#">Sign Up</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <div class="container">
+      
+      <h1>Welcome to Recipe Site</h1>
+      <p>Discover delicious recipes for every occasion</p>
+      <a class="btn btn-primary" href="#">Get Started</a>
+      
+    </div>
+  </section>
+
+  <section class="featured-recipes-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Featured Recipes</h2>
+      <!-- Add content for the featured recipes section -->
+    </div>
+  </section>
+
+  <section class="categories-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Recipe Categories</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card category-card">
+            <img src="path/to/breakfast-image.jpg" alt="Breakfast" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Breakfast</h5>
+              <p class="card-text">Start your day with a healthy breakfast</p>
+              <a href="#" class="btn btn-primary">View Recipes</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card category-card">
+            <img src="path/to/desserts-image.jpg" alt="Desserts" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Desserts</h5>
+              <p class="card-text">Indulge in sweet treats and desserts</p>
+              <a href="#" class="btn btn-primary">View Recipes</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card category-card">
+            <img src="path/to/vegetarian-image.jpg" alt="Vegetarian" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Vegetarian</h5>
+              <p class="card-text">Explore delicious vegetarian recipes</p>
+              <a href="#" class="btn btn-primary">View Recipes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Testimonials</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card testimonial-card">
+            <img src="path/to/testimonial1.jpg" alt="Testimonial 1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">John Doe</h5>
+              <p class="card-text">"The recipes on this site are amazing. I've tried several and they always turn out delicious!"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card testimonial-card">
+            <img src="path/to/testimonial2.jpg" alt="Testimonial 2" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Jane Smith</h5>
+              <p class="card-text">"I love how easy it is to find recipes in different categories. The site is user-friendly and the recipes never disappoint!"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card testimonial-card">
+            <img src="path/to/testimonial3.jpg" alt="Testimonial 3" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">David Johnson</h5>
+              <p class="card-text">"I highly recommend Recipe Site to anyone looking for delicious and reliable recipes. It's my go-to source for cooking inspiration!"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <div class="container">
+      <h2 class="text-center mb-4">About Recipe Site</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at purus sit amet ex gravida aliquam. Quisque euismod mi sit amet augue feugiat, ut vestibulum nunc pharetra. Nulla facilisi. Mauris in mauris id risus posuere tincidunt. Curabitur pharetra luctus nulla, a luctus ipsum convallis vel. Proin quis elit ut mi pretium aliquet. Sed auctor ante in mauris dapibus, sed faucibus risus lobortis. Sed in felis eget enim ultricies faucibus.</p>
+      <p>Nulla facilisi. Mauris in mauris id risus posuere tincidunt. Curabitur pharetra luctus nulla, a luctus ipsum convallis vel. Proin quis elit ut mi pretium aliquet. Sed auctor ante in mauris dapibus, sed faucibus risus lobortis. Sed in felis eget enim ultricies faucibus.</p> <p>Nulla facilisi. Mauris in mauris id risus posuere tincidunt. Curabitur pharetra luctus nulla, a luctus ipsum convallis vel. Proin quis elit ut mi pretium aliquet. Sed auctor ante in mauris dapibus, sed faucibus risus lobortis. Sed in felis eget enim ultricies faucibus.</p> <p>Nulla facilisi. Mauris in mauris id risus posuere tincidunt. Curabitur pharetra luctus nulla, a luctus ipsum convallis vel. Proin quis elit ut mi pretium aliquet. Sed auctor ante in mauris dapibus, sed faucibus risus lobortis. Sed in felis eget enim ultricies faucibus.</p>
+    </div>
+    <section class="contact-section">
+        <div class="container">
+          <h2 class="text-center mb-4">Contact Us</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <h4>Contact Information</h4>
+              <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, State, Zip</p>
+              <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+              <p><i class="fas fa-envelope"></i> info@recipesite.com</p>
+              <h4>Follow Us</h4>
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <footer class="footer-section">
+        <div class="container">
+          <p>&copy; 2021 Recipe Site. All rights reserved. | Design by Your Name</p>
+        </div>
+      </footer>
+      
+      <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+      </body>
+      </html>
