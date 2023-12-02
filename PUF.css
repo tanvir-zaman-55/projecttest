@@ -1,3 +1,14 @@
+
+a:hover {
+   
+    text-decoration: underline;
+    
+}
+
+#imgButton{
+    border-radius: 20px;
+}
+
 #Search-input{
     border-radius: 50px;
 }
@@ -37,34 +48,38 @@ a:hover {
 .navbar-toggler{
     border: 0px !important;
 }
-
-
-*::selection{
-    background-color:rgb(3, 173, 103);
-    color: white;
-}
-
-@font-face {
-    font-family: Oleo-bold;
-    src: url(./BreeSerif-Regular.ttf);
-    font-family: Oleo-bold;
-    src: url(./Trocchi-Regular.ttf)
-}
-
-.sub{
-    margin: 20px 80px;
-    font-weight: bold;
-}
 #sign-in:hover{
     background-color: white;
     color: rgb(56, 170, 56) !important;
 }
+.form-label{
+    font-family: Oleo-bold;
+}
 
-h2,h3,h1,span{
+@font-face {
+        font-family: Bree;
+        src: url(./BreeSerif-Regular.ttf);
+        font-family: Oleo-bold;
+        src: url(./Trocchi-Regular.ttf)
+}
+
+h2,span{
     font-family: Oleo-bold;
    
     font-weight: bold;
 }
-.premium{
-    color: rgb(61, 46, 63);
+
+
+#propic{
+    border-radius: 200px;
+    margin-top: 50px;
+}
+
+.info{
+    margin-left: 200px;
+}
+
+.fa-brands{
+    margin-top: 60px;
+    margin-left: 20px;
 }
